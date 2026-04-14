@@ -1,0 +1,8 @@
+import express from "express";
+import { getFeed } from "../controllers/feed.controller.js";
+
+const router = express.Router();
+
+router.get("/feed/:userId", getFeed);
+
+export default router;
