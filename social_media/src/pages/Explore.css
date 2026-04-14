@@ -1,0 +1,182 @@
+.explore-container {
+    padding: 20px 40px;
+}
+
+.explore-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.explore-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+}
+
+.search-container {
+    position: relative;
+    width: 320px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #52525b;
+}
+
+.search-input {
+    width: 100%;
+    background-color: #121212;
+    border: 1px solid #27272a;
+    border-radius: 10px;
+    padding: 10px 12px 10px 40px;
+    color: white;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #6366f1;
+    background-color: #18181b;
+}
+
+/* Category Grid */
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+    margin-bottom: 64px;
+}
+
+.category-card {
+    background-color: #121212;
+    border: 1px solid #1a1a1a;
+    border-radius: 20px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    min-height: 200px;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    background-color: #18181b;
+    border-color: #2d2d30;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.category-icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.category-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 4px;
+}
+
+.category-posts {
+    font-size: 12px;
+    color: #71717a;
+}
+
+/* Suggested Users */
+.section-header {
+    margin-bottom: 24px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.users-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+}
+
+.user-card {
+    background-color: #121212;
+    border: 1px solid #1a1a1a;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.user-card:hover {
+    border-color: #6366f155;
+    background-color: #18181b;
+}
+
+.user-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 24px;
+    color: white;
+}
+
+.user-details {
+    margin-bottom: 12px;
+}
+
+.u-name {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.u-handle {
+    display: block;
+    font-size: 13px;
+    color: #6366f1;
+}
+
+.user-bio {
+    font-size: 13px;
+    color: #71717a;
+    line-height: 1.5;
+}
+
+/* Color accents for avatars */
+.bg-coral {
+    background-color: #f43f5e;
+}
+
+.bg-sky {
+    background-color: #0ea5e9;
+}
+
+.bg-violet {
+    background-color: #8b5cf6;
+}
